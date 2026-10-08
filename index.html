@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BestBuilt Homes Ltd | Architectural Design &amp; Construction | Abuja, Nigeria</title>
+<!-- Google Fonts: Newsreader & Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,300;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-surface-variant": "#47464b",
+            "on-primary-fixed-variant": "#47464a",
+            "primary": "#000000",
+            "outline-variant": "#c8c5cb",
+            "on-surface": "#1b1c1a",
+            "on-tertiary": "#ffffff",
+            "surface-container": "#efeeea",
+            "primary-fixed-dim": "#c8c5ca",
+            "outline": "#77767b",
+            "tertiary": "#000000",
+            "surface-container-lowest": "#ffffff",
+            "tertiary-container": "#1e1b17",
+            "surface-bright": "#faf9f5",
+            "surface-variant": "#e3e2df",
+            "on-primary-fixed": "#1b1b1e",
+            "surface-tint": "#5f5e61",
+            "secondary": "#755940",
+            "background": "#faf9f5",
+            "inverse-primary": "#c8c5ca",
+            "on-tertiary-fixed-variant": "#4a4641",
+            "surface-container-high": "#e9e8e4",
+            "primary-container": "#1b1b1e",
+            "surface-dim": "#dbdad6",
+            "on-primary-container": "#858387",
+            "on-secondary-fixed": "#2b1704",
+            "secondary-fixed": "#ffdcc1",
+            "on-background": "#1b1c1a",
+            "on-secondary": "#ffffff",
+            "inverse-surface": "#30312e",
+            "on-tertiary-fixed": "#1e1b17",
+            "secondary-fixed-dim": "#e5bfa1",
+            "on-secondary-fixed-variant": "#5c412a",
+            "surface-container-highest": "#e3e2df",
+            "surface-container-low": "#f5f4f0",
+            "on-error-container": "#93000a",
+            "primary-fixed": "#e4e1e6",
+            "tertiary-fixed-dim": "#ccc5bf",
+            "inverse-on-surface": "#f2f1ed",
+            "on-secondary-container": "#785b42",
+            "tertiary-fixed": "#e9e1da",
+            "error-container": "#ffdad6",
+            "on-tertiary-container": "#88837d",
+            "on-error": "#ffffff",
+            "on-primary": "#ffffff",
+            "secondary-container": "#fdd5b6",
+            "error": "#ba1a1a",
+            "surface": "#faf9f5"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-xs": "0.375rem",
+            "space-xl": "6rem",
+            "margin": "1.5rem",
+            "gutter-desktop": "2.5rem",
+            "space-sm": "0.75rem",
+            "gutter": "1.5rem",
+            "space-lg": "3rem",
+            "space-md": "1.5rem",
+            "margin-desktop": "4rem"
+          },
+          "fontFamily": {
+            "display-hero": ["Newsreader"],
+            "meta-numeric": ["Hanken Grotesk"],
+            "body-sm": ["Hanken Grotesk"],
+            "body-lg": ["Hanken Grotesk"],
+            "headline-lg": ["Newsreader"],
+            "headline-sm": ["Hanken Grotesk"],
+            "display-hero-mobile": ["Newsreader"],
+            "headline-lg-mobile": ["Newsreader"],
+            "body-md": ["Hanken Grotesk"],
+            "headline-md": ["Newsreader"],
+            "label-caps": ["Hanken Grotesk"]
+          },
+          "fontSize": {
+            "display-hero": ["4.5rem", { "lineHeight": "5rem", "letterSpacing": "-0.03em", "fontWeight": "300" }],
+            "meta-numeric": ["0.8125rem", { "lineHeight": "1.125rem", "letterSpacing": "0.05em", "fontWeight": "400" }],
+            "body-sm": ["0.875rem", { "lineHeight": "1.375rem", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "body-lg": ["1.125rem", { "lineHeight": "1.875rem", "letterSpacing": "0em", "fontWeight": "300" }],
+            "headline-lg": ["3rem", { "lineHeight": "3.5rem", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "headline-sm": ["1.375rem", { "lineHeight": "1.875rem", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "display-hero-mobile": ["2.75rem", { "lineHeight": "3.25rem", "letterSpacing": "-0.02em", "fontWeight": "300" }],
+            "headline-lg-mobile": ["2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "body-md": ["1rem", { "lineHeight": "1.625rem", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "headline-md": ["2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "label-caps": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.12em", "fontWeight": "600" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    ::selection {
+      background-color: #18181B;
+      color: #FAF9F5;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased font-body-md text-body-md selection:bg-primary selection:text-surface-bright">
+<!-- 1. TOP APP BAR (Shared Component Anchor) -->
+<header class="sticky top-0 w-full z-50 bg-surface/95 dark:bg-primary-container/95 backdrop-blur-sm border-b border-surface-variant dark:border-on-surface-variant/30 transition-colors duration-200 ease-out">
+<div class="flex justify-between items-center h-20 px-6 lg:px-16 w-full max-w-[1720px] mx-auto">
+<!-- Brand Logo -->
+<a class="font-headline-sm text-headline-sm tracking-wider uppercase text-on-surface dark:text-surface-bright font-medium hover:text-secondary transition-colors duration-200" href="#">
+        BESTBUILT HOMES
+      </a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center space-x-8 lg:space-x-12">
+<a class="text-on-surface-variant dark:text-surface-dim font-label-caps text-label-caps uppercase transition-colors duration-200 hover:text-secondary dark:hover:text-secondary-fixed" href="#who-we-are">
+          Who We Are
+        </a>
+<a class="text-on-surface-variant dark:text-surface-dim font-label-caps text-label-caps uppercase transition-colors duration-200 hover:text-secondary dark:hover:text-secondary-fixed" href="#services">
+          Services
+        </a>
+<a class="text-primary dark:text-surface-bright font-label-caps text-label-caps uppercase border-b border-primary dark:border-surface-bright pb-1 transition-colors duration-200 hover:text-secondary" href="#projects">
+          Projects
+        </a>
+<a class="text-on-surface-variant dark:text-surface-dim font-label-caps text-label-caps uppercase transition-colors duration-200 hover:text-secondary dark:hover:text-secondary-fixed" href="#principles">
+          Principles
+        </a>
+<a class="text-on-surface-variant dark:text-surface-dim font-label-caps text-label-caps uppercase transition-colors duration-200 hover:text-secondary dark:hover:text-secondary-fixed" href="#contact">
+          Contact
+        </a>
+</nav>
+<!-- Trailing Action -->
+<div class="flex items-center space-x-4">
+<a class="hidden sm:inline-flex items-center justify-center border border-primary dark:border-surface-bright text-primary dark:text-surface-bright font-label-caps text-label-caps uppercase px-6 py-2.5 transition-all duration-200 hover:bg-primary hover:text-surface-bright dark:hover:bg-surface-bright dark:hover:text-primary" href="#contact">
+          Let's Talk
+        </a>
+<!-- Mobile Menu Toggle Button -->
+<button aria-label="Toggle navigation" class="md:hidden text-primary dark:text-surface-bright p-2 focus:outline-none" id="mobileMenuBtn">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div class="hidden md:hidden border-t border-surface-variant bg-surface px-6 py-6 space-y-4" id="mobileMenu">
+<a class="block font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary py-2" href="#who-we-are">Who We Are</a>
+<a class="block font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary py-2" href="#services">Services</a>
+<a class="block font-label-caps text-label-caps uppercase text-primary font-medium py-2" href="#projects">Projects</a>
+<a class="block font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary py-2" href="#principles">Principles</a>
+<a class="block font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary py-2" href="#contact">Contact</a>
+<a class="block text-center border border-primary py-3 font-label-caps text-label-caps uppercase text-primary hover:bg-primary hover:text-surface-bright transition-colors mt-4" href="#contact">
+        Let's Talk
+      </a>
+</div>
+</header>
+<!-- 2. HERO SECTION -->
+<section class="relative w-full min-h-[90vh] lg:min-h-[92vh] flex items-end justify-start bg-primary overflow-hidden">
+<!-- Hero Architectural Image Background -->
+<div class="absolute inset-0 z-0">
+<img alt="BestBuilt Homes modern residential villa architecture in Abuja Nigeria" class="w-full h-full object-cover object-center filter brightness-[0.75]" src="images/image-1.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent"></div>
+</div>
+<!-- Hero Content Overlay -->
+<div class="relative z-10 w-full max-w-[1720px] mx-auto px-6 lg:px-16 pb-16 lg:pb-24">
+<div class="max-w-4xl space-y-6">
+<div class="inline-flex items-center space-x-3 text-surface-bright/70 font-label-caps text-label-caps uppercase tracking-widest">
+<span class="w-2.5 h-[1px] bg-secondary-fixed"></span>
+<span>Abuja, Nigeria • Architectural Craft</span>
+</div>
+<h1 class="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-surface-bright uppercase leading-none tracking-tight">
+          BUILDING SPACES.<br/>
+<span class="italic font-normal text-surface-bright/90">CREATING HOMES.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-surface-bright/80 max-w-2xl font-light">
+          BestBuilt Homes Ltd delivers thoughtfully designed and carefully built spaces for modern living across West Africa.
+        </p>
+<!-- CTA Buttons -->
+<div class="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-5">
+<a class="inline-flex items-center justify-center bg-surface-bright text-primary font-label-caps text-label-caps uppercase px-8 py-4 transition-colors duration-200 hover:bg-secondary-fixed hover:text-primary" href="#projects">
+            Our Projects
+          </a>
+<a class="inline-flex items-center justify-center border border-surface-bright/40 text-surface-bright font-label-caps text-label-caps uppercase px-8 py-4 transition-colors duration-200 hover:bg-surface-bright/10 hover:border-surface-bright" href="#contact">
+            Contact Us
+          </a>
+</div>
+</div>
+<!-- Blueprint Spec Bar Mini -->
+<div class="mt-16 pt-8 border-t border-surface-bright/20 grid grid-cols-2 md:grid-cols-4 gap-6 text-surface-bright/70">
+<div>
+<span class="block font-label-caps text-label-caps uppercase text-surface-bright/50">Location</span>
+<span class="font-meta-numeric text-meta-numeric uppercase text-surface-bright">Abuja • FCT Nigeria</span>
+</div>
+<div>
+<span class="block font-label-caps text-label-caps uppercase text-surface-bright/50">Discipline</span>
+<span class="font-meta-numeric text-meta-numeric uppercase text-surface-bright">Architecture &amp; Build</span>
+</div>
+<div>
+<span class="block font-label-caps text-label-caps uppercase text-surface-bright/50">Standard</span>
+<span class="font-meta-numeric text-meta-numeric uppercase text-surface-bright">Bespoke Turnkey</span>
+</div>
+<div class="flex items-end justify-end">
+<a class="inline-flex items-center space-x-2 text-surface-bright hover:text-secondary-fixed transition-colors font-label-caps text-label-caps uppercase" href="#who-we-are">
+<span>Scroll</span>
+<span class="material-symbols-outlined text-sm" data-icon="arrow_downward">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. ABOUT (Who We Are) -->
+<section class="w-full py-24 lg:py-32 px-6 lg:px-16 max-w-[1720px] mx-auto border-b border-surface-variant" id="who-we-are">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column: Architectural Photo with clean ratio framing -->
+<div class="lg:col-span-6 relative">
+<div class="relative overflow-hidden bg-surface-container border border-surface-variant aspect-[4/5] max-h-[700px] w-full group">
+<img alt="Architectural timber and concrete facade detail engineered by BestBuilt Homes Abuja" class="w-full h-full object-cover grayscale-[15%] group-hover:scale-105 transition-transform duration-700 ease-out" src="images/image-2.jpg"/>
+</div>
+<!-- Orthogonal Micro-tag -->
+<div class="absolute bottom-4 left-4 bg-primary text-surface-bright font-meta-numeric text-meta-numeric px-3 py-1 uppercase tracking-widest">
+          FIG 01.0 • TECTONIC DETAILS
+        </div>
+</div>
+<!-- Right Column: Editorial Text -->
+<div class="lg:col-span-6 lg:pl-6 space-y-8">
+<div class="space-y-3">
+<div class="inline-flex items-center space-x-2 text-secondary font-label-caps text-label-caps uppercase tracking-widest">
+<span class="w-2 h-2 bg-secondary inline-block"></span>
+<span>WHO WE ARE</span>
+</div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight uppercase">
+            BUILT WITH PURPOSE.
+          </h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed font-light">
+          BestBuilt Homes Ltd is committed to creating quality spaces through thoughtful design, reliable construction, and rigorous attention to detail. Operating from Nigeria’s capital city, we bridge the gap between contemporary tropical architectural concepts and solid, enduring execution.
+        </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          From master-planned multi-acre developments to discreet hillside residences in Asokoro and Guzape, our cross-functional team merges architectural drafting rigor with site-tested structural intelligence. We believe a home must endure both the test of natural elements and the demands of modern lineage.
+        </p>
+<div class="pt-4">
+<a class="inline-flex items-center space-x-3 text-primary font-label-caps text-label-caps uppercase border-b-2 border-primary pb-1 group hover:text-secondary hover:border-secondary transition-all" href="#projects">
+<span>Learn More About Our Methodology</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SERVICES (What We Do) -->
+<section class="w-full py-24 lg:py-32 px-6 lg:px-16 max-w-[1720px] mx-auto border-b border-surface-variant bg-surface" id="services">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 space-y-4 md:space-y-0">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block mb-2">SERVICES</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface uppercase tracking-tight">
+          WHAT WE DO
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md font-light">
+        End-to-end spatial solutions delivered through uncompromising engineering standards and turnkey procurement oversight.
+      </p>
+</div>
+<!-- Editorial Numbered Rows -->
+<div class="divide-y divide-surface-variant border-t border-b border-surface-variant">
+<!-- 01 -->
+<div class="py-10 lg:py-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline group hover:bg-surface-container-low transition-colors duration-200 px-4 -mx-4">
+<div class="md:col-span-2">
+<span class="font-meta-numeric text-meta-numeric text-secondary tracking-widest uppercase">01 / DISCIPLINE</span>
+</div>
+<div class="md:col-span-5">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-secondary transition-colors duration-200">
+            Residential Construction
+          </h3>
+</div>
+<div class="md:col-span-5">
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            Custom private villas, luxury residences, bespoke engineering, and structural reinforced concrete frames built strictly to code.
+          </p>
+</div>
+</div>
+<!-- 02 -->
+<div class="py-10 lg:py-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline group hover:bg-surface-container-low transition-colors duration-200 px-4 -mx-4">
+<div class="md:col-span-2">
+<span class="font-meta-numeric text-meta-numeric text-secondary tracking-widest uppercase">02 / DISCIPLINE</span>
+</div>
+<div class="md:col-span-5">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-secondary transition-colors duration-200">
+            Property Development
+          </h3>
+</div>
+<div class="md:col-span-5">
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            Master-planned residential schemes, multi-unit gated communities, and high-yield real estate investments in prime Nigerian locations.
+          </p>
+</div>
+</div>
+<!-- 03 -->
+<div class="py-10 lg:py-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline group hover:bg-surface-container-low transition-colors duration-200 px-4 -mx-4">
+<div class="md:col-span-2">
+<span class="font-meta-numeric text-meta-numeric text-secondary tracking-widest uppercase">03 / DISCIPLINE</span>
+</div>
+<div class="md:col-span-5">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-secondary transition-colors duration-200">
+            Architectural &amp; Building Solutions
+          </h3>
+</div>
+<div class="md:col-span-5">
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            Comprehensive spatial coordination, MEP integrations, bioclimatic orientation, turnkey execution, and site feasibility studies.
+          </p>
+</div>
+</div>
+<!-- 04 -->
+<div class="py-10 lg:py-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline group hover:bg-surface-container-low transition-colors duration-200 px-4 -mx-4">
+<div class="md:col-span-2">
+<span class="font-meta-numeric text-meta-numeric text-secondary tracking-widest uppercase">04 / DISCIPLINE</span>
+</div>
+<div class="md:col-span-5">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-secondary transition-colors duration-200">
+            Renovation &amp; Remodeling
+          </h3>
+</div>
+<div class="md:col-span-5">
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            Modern architectural retrofits, structural reinforcement, exterior envelope updates, and interior spatial reconfigurations for legacy estates.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. PROJECTS (Selected Projects Portfolio) -->
+<section class="w-full py-24 lg:py-32 px-6 lg:px-16 max-w-[1720px] mx-auto border-b border-surface-variant" id="projects">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 space-y-4 md:space-y-0">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block mb-2">SELECTED PROJECTS</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface uppercase tracking-tight">
+          OUR WORK
+        </h2>
+</div>
+<div>
+<a class="inline-flex items-center space-x-2 font-label-caps text-label-caps uppercase text-primary border-b border-primary pb-1 hover:text-secondary hover:border-secondary transition-colors" href="#contact">
+<span>Inquire About Project Availability</span>
+<span class="material-symbols-outlined text-sm" data-icon="arrow_outward">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Editorial Project Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12">
+<!-- Project 01: The Asokoro Villa -->
+<article class="group cursor-pointer">
+<div class="relative overflow-hidden bg-surface-container aspect-[16/10] border border-surface-variant">
+<img alt="The Asokoro Villa in Abuja by BestBuilt Homes Ltd" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="images/image-1.jpg"/>
+<div class="absolute top-4 right-4 bg-primary/80 backdrop-blur-sm text-surface-bright font-meta-numeric text-meta-numeric px-3 py-1 uppercase">
+            COMPLETED
+          </div>
+</div>
+<div class="mt-6 flex justify-between items-start pt-2 border-t border-surface-variant">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">
+              The Asokoro Villa
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Abuja, Nigeria • Residential Development</p>
+</div>
+<span class="font-meta-numeric text-meta-numeric text-on-surface-variant uppercase">01 / ARCH</span>
+</div>
+</article>
+<!-- Project 02: Maitama Pavilion Residence -->
+<article class="group cursor-pointer">
+<div class="relative overflow-hidden bg-surface-container aspect-[16/10] border border-surface-variant">
+<img alt="Maitama Pavilion Residence concrete and wood detailing in Abuja" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="images/image-2.jpg"/>
+<div class="absolute top-4 right-4 bg-primary/80 backdrop-blur-sm text-surface-bright font-meta-numeric text-meta-numeric px-3 py-1 uppercase">
+            OFF-PLAN / UNDER BUILD
+          </div>
+</div>
+<div class="mt-6 flex justify-between items-start pt-2 border-t border-surface-variant">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">
+              Maitama Pavilion Residence
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Abuja, Nigeria • Architectural Solution</p>
+</div>
+<span class="font-meta-numeric text-meta-numeric text-on-surface-variant uppercase">02 / ARCH</span>
+</div>
+</article>
+<!-- Project 03: Guzape Terraces -->
+<article class="group cursor-pointer">
+<div class="relative overflow-hidden bg-surface-container aspect-[16/10] border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A modern multi-level terraced architectural residence set on the rocky hillside of Guzape Abuja Nigeria. The structure features board-formed concrete walls, massive glass apertures, recessed cantilevers, and warm wooden louvers in late afternoon sunlight. Minimalist landscape architecture with natural granite boulders and indigenous plants under an open sky." src="images/image-3.jpg"/>
+<div class="absolute top-4 right-4 bg-primary/80 backdrop-blur-sm text-surface-bright font-meta-numeric text-meta-numeric px-3 py-1 uppercase">
+            COMPLETED
+          </div>
+</div>
+<div class="mt-6 flex justify-between items-start pt-2 border-t border-surface-variant">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">
+              Guzape Terraces
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Abuja, Nigeria • Private Residential</p>
+</div>
+<span class="font-meta-numeric text-meta-numeric text-on-surface-variant uppercase">03 / ARCH</span>
+</div>
+</article>
+<!-- Project 04: Jabi Lake Residence -->
+<article class="group cursor-pointer">
+<div class="relative overflow-hidden bg-surface-container aspect-[16/10] border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A serene waterfront modernist villa situated along the tranquil shore of Jabi Lake Abuja Nigeria. Sharp orthogonal lines combine pale travertine stone and horizontal black aluminum solar louvers with calm water reflections. The composition conveys an architectural atmosphere of quiet luxury, absolute precision, and balanced mass and void." src="images/image-4.jpg"/>
+<div class="absolute top-4 right-4 bg-primary/80 backdrop-blur-sm text-surface-bright font-meta-numeric text-meta-numeric px-3 py-1 uppercase">
+            TURNKEY EXECUTION
+          </div>
+</div>
+<div class="mt-6 flex justify-between items-start pt-2 border-t border-surface-variant">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">
+              Jabi Lake Residence
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Abuja, Nigeria • Turnkey Construction</p>
+</div>
+<span class="font-meta-numeric text-meta-numeric text-on-surface-variant uppercase">04 / ARCH</span>
+</div>
+</article>
+</div>
+<!-- Architectural Text Link Action -->
+<div class="mt-16 text-center">
+<a class="inline-flex items-center space-x-3 text-primary font-label-caps text-label-caps uppercase border-b-2 border-primary pb-1 group hover:text-secondary hover:border-secondary transition-all" href="#contact">
+<span>View All Projects &amp; Private Monographs</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- 6. WHY BESTBUILT (Craftsmanship & Principles) -->
+<section class="w-full py-24 lg:py-32 px-6 lg:px-16 max-w-[1720px] mx-auto border-b border-surface-variant bg-surface-container-low" id="principles">
+<div class="max-w-3xl mb-16 space-y-4">
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block">CORE PRINCIPLES</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface uppercase tracking-tight">
+        QUALITY YOU CAN SEE.<br/>
+        CRAFTSMANSHIP YOU CAN TRUST.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant font-light">
+        We adhere to a philosophy where architectural intent is preserved without compromise through structural discipline and materials selection.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+<!-- Principle 1 -->
+<div class="bg-surface p-8 lg:p-10 border border-surface-variant space-y-4">
+<span class="font-meta-numeric text-meta-numeric text-secondary uppercase block">01 / PILLAR</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Quality</h3>
+<div class="w-8 h-[1px] bg-secondary my-2"></div>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+          Attention to detail from foundation to finishing. Every structural mix, steel reinforcement schedule, and imported joinery joint is rigorously examined.
+        </p>
+</div>
+<!-- Principle 2 -->
+<div class="bg-surface p-8 lg:p-10 border border-surface-variant space-y-4">
+<span class="font-meta-numeric text-meta-numeric text-secondary uppercase block">02 / PILLAR</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Design</h3>
+<div class="w-8 h-[1px] bg-secondary my-2"></div>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+          Modern spaces designed around comfort and functionality. We harness Abuja's natural daylight, cross-ventilation, and private perimeter vistas.
+        </p>
+</div>
+<!-- Principle 3 -->
+<div class="bg-surface p-8 lg:p-10 border border-surface-variant space-y-4">
+<span class="font-meta-numeric text-meta-numeric text-secondary uppercase block">03 / PILLAR</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Reliability</h3>
+<div class="w-8 h-[1px] bg-secondary my-2"></div>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+          Professional execution with a focus on delivering what we promise. Transparent site telemetry, strict project calendars, and fiduciary clarity.
+        </p>
+</div>
+</div>
+</section>
+<!-- 7. COMPANY STATISTICS -->
+<section class="w-full py-16 lg:py-20 px-6 lg:px-16 max-w-[1720px] mx-auto border-b border-surface-variant bg-surface">
+<div class="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-surface-variant border-y border-surface-variant">
+<!-- Metric 1 -->
+<div class="py-8 md:py-6 px-4 md:px-8 text-center md:text-left">
+<span class="block font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface font-light leading-none">
+          10+
+        </span>
+<span class="mt-2 block font-label-caps text-label-caps uppercase text-on-surface-variant">
+          Completed Projects
+        </span>
+</div>
+<!-- Metric 2 -->
+<div class="py-8 md:py-6 px-4 md:px-8 text-center md:text-left">
+<span class="block font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface font-light leading-none">
+          5+
+        </span>
+<span class="mt-2 block font-label-caps text-label-caps uppercase text-on-surface-variant">
+          Years of Practice
+        </span>
+</div>
+<!-- Metric 3 -->
+<div class="py-8 md:py-6 px-4 md:px-8 text-center md:text-left">
+<span class="block font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface font-light leading-none">
+          100%
+        </span>
+<span class="mt-2 block font-label-caps text-label-caps uppercase text-on-surface-variant">
+          Commitment to Quality
+        </span>
+</div>
+<!-- Metric 4 -->
+<div class="py-8 md:py-6 px-4 md:px-8 text-center md:text-left">
+<span class="block font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface font-light leading-none">
+          Abuja
+        </span>
+<span class="mt-2 block font-label-caps text-label-caps uppercase text-on-surface-variant">
+          Headquarters &amp; Operations
+        </span>
+</div>
+</div>
+</section>
+<!-- 8. INSTAGRAM / SOCIAL CURATION -->
+<section class="w-full py-24 lg:py-32 px-6 lg:px-16 max-w-[1720px] mx-auto border-b border-surface-variant">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 space-y-4 md:space-y-0">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block mb-2">CURATED ARCHIVE</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface uppercase tracking-tight">
+          FOLLOW OUR WORK
+        </h2>
+</div>
+<div class="max-w-md">
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          Follow BestBuilt Homes Ltd for project updates, completed homes, material mockups, and behind-the-scenes construction.
+        </p>
+</div>
+</div>
+<!-- 4-Column Photo Grid -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+<div class="relative aspect-square overflow-hidden bg-surface-container border border-surface-variant group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Architectural detail of polished travertine tiles and board-formed architectural concrete under bright high-key equatorial sunshine in an upscale Abuja residential villa. Precise geometric intersections with ultra sharp hairline shadows and minimalist structural aesthetic." src="images/image-5.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-surface-bright" data-icon="photo_camera">photo_camera</span>
+</div>
+</div>
+<div class="relative aspect-square overflow-hidden bg-surface-container border border-surface-variant group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sleek modern minimalist interior hallway with high ceilings, recessed perimeter lighting, floating oak stairs, and floor-to-ceiling slim black aluminum frame glass walls looking out into a landscaped tropical courtyard." src="images/image-6.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-surface-bright" data-icon="photo_camera">photo_camera</span>
+</div>
+</div>
+<div class="relative aspect-square overflow-hidden bg-surface-container border border-surface-variant group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up architectural construction photography showing structural steel joints, precision timber slats, and smooth grey finished concrete on an Abuja modern building site under clear blue sky." src="images/image-7.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-surface-bright" data-icon="photo_camera">photo_camera</span>
+</div>
+</div>
+<div class="relative aspect-square overflow-hidden bg-surface-container border border-surface-variant group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Dusk photograph of an infinity-edge private lap pool reflecting warm interior architectural lights from an ultra-modern concrete residence. Palm silhouettes and subtle recessed ground up-lighting against a twilight sky." src="images/image-8.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-surface-bright" data-icon="photo_camera">photo_camera</span>
+</div>
+</div>
+</div>
+<!-- Instagram Link -->
+<div class="mt-10 text-center">
+<a class="inline-flex items-center space-x-2 text-primary font-label-caps text-label-caps uppercase hover:text-secondary transition-colors" href="https://instagram.com/bestbuilthomes" rel="noopener noreferrer" target="_blank">
+<span>Follow us on Instagram → (@bestbuilthomes)</span>
+</a>
+</div>
+</section>
+<!-- 9. CONTACT BANNER CTA -->
+<section class="relative w-full py-24 lg:py-32 px-6 lg:px-16 bg-primary text-surface-bright overflow-hidden">
+<div class="absolute inset-0 opacity-20">
+<img alt="Architectural backdrop" class="w-full h-full object-cover grayscale" src="images/image-1.jpg"/>
+</div>
+<div class="relative z-10 max-w-[1720px] mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+<div class="space-y-4 max-w-2xl">
+<span class="font-label-caps text-label-caps uppercase text-secondary-fixed tracking-widest block">INITIATE CONSULTATION</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-surface-bright uppercase tracking-tight">
+          HAVE A PROJECT IN MIND?
+        </h2>
+<p class="font-body-lg text-body-lg text-surface-bright/80 font-light">
+          Let's discuss how we can bring your architectural vision to life with structural precision and enduring quality.
+        </p>
+</div>
+<div>
+<a class="inline-flex items-center space-x-3 bg-surface-bright text-primary font-label-caps text-label-caps uppercase px-10 py-5 transition-all duration-200 hover:bg-secondary-fixed hover:text-primary" href="#contact">
+<span>Get In Touch</span>
+<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 10. CONTACT DETAILS -->
+<section class="w-full py-24 lg:py-32 px-6 lg:px-16 max-w-[1720px] mx-auto" id="contact">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+<!-- Left Column: Information -->
+<div class="lg:col-span-12 max-w-3xl space-y-12">
+<div class="space-y-4">
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block">DIRECT COMMUNICATION</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface uppercase tracking-tight">
+            BESTBUILT HOMES LTD
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            Our architectural atelier and site administration team welcomes scheduled discussions regarding prospective commissions, developments, and turnkey contracts.
+          </p>
+</div>
+<div class="space-y-8 divide-y divide-surface-variant border-y border-surface-variant py-6">
+<div class="pt-4 flex items-start space-x-4">
+<span class="material-symbols-outlined text-secondary text-xl mt-1" data-icon="location_on">location_on</span>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">Location</span>
+<p class="font-body-md text-body-md text-on-surface font-light mt-1"><a class="hover:text-secondary transition-colors duration-200" href="https://www.google.com/maps/search/?api=1&amp;query=Plot+1402+Cadastral+Zone+Abuja+Nigeria" rel="noopener noreferrer" target="_blank">Plot 1402, Cadastral Zone, Abuja, Nigeria</a></p>
+</div>
+</div>
+<div class="pt-6 flex items-start space-x-4">
+<span class="material-symbols-outlined text-secondary text-xl mt-1" data-icon="call">call</span>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">Telephone</span>
+<p class="font-body-md text-body-md text-on-surface font-light mt-1"><a class="hover:text-secondary transition-colors duration-200" href="tel:+2348030000000">+234 803 000 0000</a> · <a class="hover:text-secondary transition-colors duration-200" href="https://wa.me/2348030000000?text=Hello%20BestBuilt%20Homes%2C%20I%27d%20like%20to%20discuss%20a%20project." rel="noopener noreferrer" target="_blank">WhatsApp</a></p>
+</div>
+</div>
+<div class="pt-6 flex items-start space-x-4">
+<span class="material-symbols-outlined text-secondary text-xl mt-1" data-icon="mail">mail</span>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">Electronic Inquiries</span>
+<p class="font-body-md text-body-md text-on-surface font-light mt-1"><a class="hover:text-secondary transition-colors duration-200" href="mailto:inquiries@bestbuilthomes.ng?subject=Project%20Enquiry">inquiries@bestbuilthomes.ng</a></p>
+</div>
+</div>
+<div class="pt-6 flex items-start space-x-4">
+<span class="material-symbols-outlined text-secondary text-xl mt-1" data-icon="schedule">schedule</span>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">Consultation Schedule</span>
+<p class="font-body-md text-body-md text-on-surface font-light mt-1">Monday – Friday: 08:30 – 17:30 WAT<br/>By appointment only.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. FOOTER (Shared Component Anchor) -->
+<footer class="w-full bg-primary-container dark:bg-surface-container-lowest text-surface-bright dark:text-primary border-t border-on-surface-variant/20 dark:border-surface-variant transition-colors duration-200 ease-out">
+<div class="w-full px-6 lg:px-16 pt-20 pb-12 max-w-[1720px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-16 border-b border-on-surface-variant/30">
+<!-- Brand Wordmark & Tagline -->
+<div class="md:col-span-5 space-y-4">
+<a class="font-headline-md text-headline-md tracking-wider uppercase text-surface-bright dark:text-primary font-medium block" href="#">
+            BESTBUILT HOMES
+          </a>
+<p class="font-body-md text-body-md text-on-primary-container dark:text-on-surface-variant max-w-sm">
+            Building spaces. Creating homes. High-performance residential and commercial architectural execution in Abuja and West Africa.
+          </p>
+</div>
+<!-- Links Cluster 1 -->
+<div class="md:col-span-4 space-y-3">
+<span class="font-label-caps text-label-caps uppercase text-secondary-fixed block mb-2">Practice Links</span>
+<ul class="space-y-2">
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="#services">Residential Construction</a></li>
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="#services">Property Development</a></li>
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="#services">Architectural Solutions</a></li>
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="#services">Renovation &amp; Remodeling</a></li>
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="#projects">Selected Projects</a></li>
+</ul>
+</div>
+<!-- Links Cluster 2 & Direct Channels -->
+<div class="md:col-span-3 space-y-3">
+<span class="font-label-caps text-label-caps uppercase text-secondary-fixed block mb-2">Registry &amp; Terms</span>
+<ul class="space-y-2">
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="https://instagram.com/bestbuilthomes" rel="noopener noreferrer" target="_blank">Instagram: @bestbuilthomes</a></li>
+<li><a class="text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm hover:text-secondary-fixed dark:hover:text-secondary transition-colors duration-200" href="https://wa.me/2348030000000?text=Hello%20BestBuilt%20Homes%2C%20I%27d%20like%20to%20discuss%20a%20project." rel="noopener noreferrer" target="_blank">Direct WhatsApp Advisory</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Meta -->
+<div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-on-primary-container dark:text-on-surface-variant font-body-sm text-body-sm space-y-4 sm:space-y-0">
+<div>
+          © 2025 BestBuilt Homes Ltd. Abuja, Nigeria. All structural rights reserved.
+        </div>
+<div class="font-meta-numeric text-meta-numeric uppercase tracking-widest text-on-primary-container/70">
+          DESIGNED FOR ABUJA &amp; BEYOND
+        </div>
+</div>
+</div>
+</footer>
+<!-- Micro-interactions Script for Responsive Toggle & Smoothness -->
+<script>
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      // Close on link click
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+  </script>
+</body></html>
